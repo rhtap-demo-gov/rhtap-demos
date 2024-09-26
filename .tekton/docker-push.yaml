@@ -40,7 +40,7 @@ spec:
       value: '{{event_type}}'
     - name: gitops-auth-secret-name
       value: gitops-auth-secret
-    - name: tlsverify
+    - name: TLSVERIFY
       value: false
   pipelineRef:
     name: docker-build-rhtap
